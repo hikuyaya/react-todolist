@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Todolist from './Todolist';
 import * as serviceWorker from './serviceWorker';
+
+// PWA：Progressive web application
+// 将服务部署在 https 协议的服务器上，用户断网之后仍然可以访问到
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Todolist />
   </React.StrictMode>,
   document.getElementById('root')
 );
