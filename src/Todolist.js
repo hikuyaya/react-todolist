@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react'
 import TodoItem from './TodoItem'
 
-class Todolist extends React.Component {
+class Todolist extends Component {
 
   constructor(props) {
     super(props)

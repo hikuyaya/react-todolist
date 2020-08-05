@@ -1,0 +1,23 @@
+.header-wrapper {
+  height: 56px;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+.header-wrapper input {
+  width: 180px;
+  border-radius: 25px;
+  padding: 0 40px 0 20px;
+  height: 38px;
+  font-size: 14px;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+  transition: width .5s;
+  -moz-transition: width .5s;
+  -webkit-transition: width .5s;
+  -o-transition: width .5s;
+  transition-delay: .1s;
+  -moz-transition-delay: .1s;
+  -webkit-transition-delay: .1s;
+  margin-top: 8px;
+}
