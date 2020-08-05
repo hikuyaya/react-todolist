@@ -1,0 +1,28 @@
+.header-wrapper {
+  height: 56px;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+.header-wrapper .slide-enter {
+  transition: all .5s ease-in-out;
+}
+.header-wrapper .slide-enter-active, .header-wrapper .slide-enter-done {
+  width: 300px;
+}
+.header-wrapper .slide-exit {
+  transition: all .5s ease-in-out;
+}
+.header-wrapper .slide-exit-active, .header-wrapper .slide-exit-done {
+  width: 180px;
+}
+.header-wrapper input {
+  width: 180px;
+  border-radius: 25px;
+  padding: 0 40px 0 20px;
+  height: 38px;
+  font-size: 14px;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+  margin-top: 8px;
+}

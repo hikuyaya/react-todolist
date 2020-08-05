@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './reset.css';
 import { Provider } from 'react-redux';
 import store from './store';
-import Header from './common/Header.jsx';
+import Header from './common/header'
 import * as serviceWorker from './serviceWorker';
 
 // PWA：Progressive web application
